@@ -1,0 +1,67 @@
+nav {
+	height: 12vh;
+	background: #fff;
+	padding: 1.5rem;
+	box-shadow: 1px 1px 8px 1px rgba(1, 1, 1, 0.5);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	& > .logo {
+		transform: scale(0.5);
+	}
+
+	& > .menu {
+		width: 50%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+
+		& > ul {
+			width: 60%;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			list-style: none;
+			cursor: pointer;
+		}
+
+		& > ul > li {
+			font-size: 0.9em;
+			font-weight: bold;
+		}
+
+		& > ul > li:hover {
+			color: dodgerblue;
+		}
+
+		& > button {
+			padding: 0.5rem;
+			font-size: 1em;
+			font-weight: bold;
+			background: transparent;
+			cursor: pointer;
+		}
+
+		& > img {
+			width: 1.5em;
+			height: 1.5em;
+			cursor: pointer;
+		}
+	}
+}
+
+#login:hover {
+	color: white;
+	background: black;
+}
+
+#join-now {
+	color: dodgerblue;
+	border: 2px solid dodgerblue;
+}
+
+#join-now:hover {
+	color: white;
+	background: dodgerblue;
+}

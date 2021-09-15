@@ -1,0 +1,88 @@
+nav {
+  height: 12vh;
+  background: #fff;
+  padding: 1.5rem;
+  -webkit-box-shadow: 1px 1px 8px 1px rgba(1, 1, 1, 0.5);
+          box-shadow: 1px 1px 8px 1px rgba(1, 1, 1, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav > .logo {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+nav > .menu {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav > .menu > ul {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+nav > .menu > ul > li {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+nav > .menu > ul > li:hover {
+  color: dodgerblue;
+}
+
+nav > .menu > button {
+  padding: 0.5rem;
+  font-size: 1em;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+}
+
+nav > .menu > img {
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+}
+
+#login:hover {
+  color: white;
+  background: black;
+}
+
+#join-now {
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
+}
+
+#join-now:hover {
+  color: white;
+  background: dodgerblue;
+}
+/*# sourceMappingURL=nav.css.map */

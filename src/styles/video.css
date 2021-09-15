@@ -1,0 +1,66 @@
+.video {
+  width: 100vw;
+  height: 88vh;
+  position: relative;
+}
+
+.video > .motto {
+  width: 20%;
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  font-size: 1.5em;
+  color: white;
+  -webkit-animation: slideInFromBottom 1.25s ease-in forwards;
+          animation: slideInFromBottom 1.25s ease-in forwards;
+}
+
+.video > .motto > h1 > span {
+  font-weight: 900;
+}
+
+.video > .motto > h3 {
+  margin-top: 1rem;
+  font-size: 0.75em;
+}
+
+.video > .motto > button {
+  padding: 0.75rem;
+  margin-top: 1rem;
+  width: 70%;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  border: 3px solid white;
+  background: transparent;
+  cursor: pointer;
+}
+
+.video > .motto > button:hover {
+  color: black;
+  background: white;
+}
+
+@-webkit-keyframes slideInFromBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=video.css.map */
