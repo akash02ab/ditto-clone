@@ -7,7 +7,7 @@ const Nav = () => {
 				<img src="/logo.svg" alt="DITTO" />
 			</div>
 			<div className="menu">
-				<ul>
+				<ul className="sm-hide">
 					<li>Sell Your Music</li>
 					<li>Pricing</li>
 					<li>Publising</li>
@@ -15,9 +15,11 @@ const Nav = () => {
 					<li>Blog</li>
 				</ul>
 
-				<button id="login">Login</button>
-				<button id="join-now">Join Now</button>
-				<img src="/globe-americas-solid.svg" alt="Globe" />
+				<img src="/bars-solid.svg" alt="menu" className="lg-hide" />
+
+				<button id="login" className="m-hide">Login</button>
+				<button id="join-now" className="m-hide">Join Now</button>
+				<img src="/globe-americas-solid.svg" alt="Globe" className="m-hide" />
 			</div>
 		</nav>
 	);

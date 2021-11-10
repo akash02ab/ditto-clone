@@ -7,8 +7,17 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 
+	@media (max-width: 768px) {
+		padding: 0.75rem;
+		height: 8vh;
+	}
+
 	& > .logo {
+		width: 50%;
 		transform: scale(0.5);
+		@media (max-width: 768px) {
+			transform: scale(0.25);
+		}
 	}
 
 	& > .menu {
@@ -48,6 +57,18 @@ nav {
 			height: 1.5em;
 			cursor: pointer;
 		}
+
+		& > .sm-hide {
+			@media screen and (max-width: 1260px) {
+				display: none;
+			}
+		}
+
+		& > .lg-hide {
+			@media screen and (min-width: 1260px) {
+				display: none;
+			}
+		}
 	}
 }
 
@@ -64,4 +85,10 @@ nav {
 #join-now:hover {
 	color: white;
 	background: dodgerblue;
+}
+
+@media  screen and (max-width: 560px) {
+	.m-hide {
+		display: none;
+	}
 }
